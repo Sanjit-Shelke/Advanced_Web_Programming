@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <script src="exam1.js"></script>
+
+    <title>Exam1</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!--ROW-1-->
+        <div class="row bg-secondary position-sticky" style="height: 60px;">
+            <div class="col-2 p-0 text-light d-flex justify-content-center align-items-center"
+                style="height: vh; width: px;">
+                <img style="border-radius: 50%; "
+                    src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+                    alt="Getty" height="80vh" width="90vw">
+            </div>
+
+            <div class="col-8 bg-dark text-light font-italic d-flex align-items-start justify-content-center"
+                style="font-size: 24px; height: 70px;">
+                <ul>Sanjit Vilas Shelke</ul>
+                <div col-1" bg-dark text-light" style="font-size: 18px; ">
+                    <br>(Web Developer)
+                </div>
+            </div>
+            <div class="col-2 bg-secondary btn btn-outline-dark d-flex justify-content-center align-items-center"
+                style="height: 60px; font-size: 18px;">
+                Log Out
+            </div>
+        </div>
+
+
+        <!--Row-2-->
+        <div class="row  mt-3 bg-white justify-content-center">
+            <div class="col-3">Updates
+
+            </div>
+
+            <div class="col-6 bg-success d-flex flex-column col-md-6 align-items-center" style="height: 150px;">
+                <button onclick="like()" id="like" class="pl-3 pr-3 btn-outline-primary mt-1">
+                    Like <span>0</span> &#128077
+                </button>
+
+                <button onclick="dislike()" id="dislike" class=" btn-outline-danger mt-1">
+                    Dislike &#128078
+                </button>
+
+                <div>
+                    <input id="readComment" class=" mt-2 " style="width: 40vw;" type="text"
+                        placeholder="Comment Here...">
+                </div>
+
+                <div>
+                    <button onclick="readComment()" id="readButton" class=" btn btn-outline-primary bg-dark"
+                        style="margin-top: 5px;">
+                        Comment
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-3 bg-warning">
+                <div id="commentBox" class="row mt-1 ml-2 mr-1">
+                    <div id="id1" class="col bg-white pr-0 " style="border: slateblue solid; border-radius: 5%;" ; ">
+                        <div id=" sample" style="word-wrap: break-word;">
+                        Sample Comment Here
+                    </div>
+                    <div class=" p-0 d-flex justify-content-end">
+                        <button onclick="del(this)" class="btn btn-outline-danger p-0 d-flex justify-content-end ">
+                            Delete
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+.log{
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 10em;
+    border: darkmagenta solid;
+    color: black;
+    padding-bottom: 80px;
+
+    
+}
+
+.fields{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+
+}

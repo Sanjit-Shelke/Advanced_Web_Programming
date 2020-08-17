@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="lab.js"> </script>
+    <style>
+        body {
+            background-color: indigo;
+            margin: 100px;
+            margin-left: 220px;
+            margin-right: 220px;
+        }
+    </style>
+</head>
+
+<body style="display: flex; justify-content: center;align-items: center;">
+    <div id="body" style="display: flex;
+                        flex-direction: column;
+                      align-items: center;
+                      justify-content: center;
+                      margin-bottom: 5px;
+                      background-color: greenyellow;
+                      position: relative;
+                      width: 50vh;
+                      border: brown solid;
+                      border-width: 5px;
+                      border-radius: 20px;
+                        ">
+        <div style="font-size: 30px;
+                    "> CALCULATOR</div>
+
+        <div class="num1" style="display: flex;
+                    margin-top: 20px;">Number:-
+            <input id="no1" type="text" name="number1" placeholder="Number1" style="padding: 8px;">
+        </div>
+
+        <div class="num2" style="display: flex;
+                    margin-top: 20px;">Number:-
+            <input id="no2" type="text" name="number2" placeholder="Number2" style="padding: 8px;">
+        </div>
+
+
+        <div class="Ans" id="wer" style="display: flex;
+                    margin-top: 20px;">Answer:-
+
+            <input id="no3" type="text" name="answer" placeholder="Answer" style="padding: 8px;">
+        </div>
+
+
+        <div style="margin-top: 30px;">
+            <input id="sum" onclick="sum()" type="button" value="+" style="padding: 8px;margin-right: 4px;">
+            <input id="sub" onclick="sub()" type="button" value="-" style="padding: 8px;margin-right: 4px;">
+            <input id="mul" onclick="mul()" type="button" value="*" style="padding: 8px;margin-right: 4px;">
+            <input id="div" onclick="div()" type="button" value="/" style="padding: 8px;margin-right: 4px;">
+        </div>
+        <div >
+            <button style="margin-top: 80px; margin-bottom: 120px;" 
+                    onclick="calc()" 
+                    style="padding:10px;"> CALCULATE</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Exam_Prep</title>
+
+    <script src="exam2.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row bg-warning text-light d-flex align-items-center justify-content-between" style="height: 60px;">
+            hii
+            <div class="col">
+                My Site
+            </div>
+            <div class="col d-flex btn-secondary justify-content-end">
+                hello
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center">
+            
+            <div class="col-4 text-light bg-dark flex-column ">
+                <div class="row justify-content-center bg-primary " style="height: 40px; font-size: 24px;">Registration
+                </div>
+                <div class="col-6 justify-content-between d-flex flex-column ">
+                    UserName:-
+                    <div>
+                    <input id="un" type="text" placeholder="Username" required>
+                    <span id="valid" style="visibility: hidden;" >invalid</span>
+                    </div>
+                    Password:-
+                    <input id="ps" type="password" placeholder="Password" required>
+                    <div>
+                        <button onclick="valid1()" class="btn btn-outline-secondary mt-4">Log In</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-4 bg-secondary ">
+                <div class="col-6 mt-2 ">
+                    <button>Like</button>
+                    <button>Dislike</button>
+                    
+                </div>
+                <div class="col-6 bg-secondary mt-4" >
+                    <input id="readtext" type="text" placeholder="comment">
+                </div>
+                <button onclick="readWrite()" class="btn btn-outline-dark text-light ml-3">Comment</button>
+
+            </div>
+
+            <div id="box" class="col-4 bg-primary ">
+                <div id="box2"  class="col bg-white mt-2 d-flex p-0 justify-content-end" >
+                    <div class="col p-0 bg-white">Sample Comment Here</div> 
+                    <div class="col p-0 d-flex align-items-end justify-content-end">
+                        <button onclick="del(this)" class=" p-0 " >Delete</button>
+                    </div>
+                </div>
+               
+                
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+</body>
+
+</html>
